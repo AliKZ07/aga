@@ -8,7 +8,7 @@ git commit -m $message | Out-Null
 
 # Push the changes to the remote repository
 Write-Host "⬆ Push the changes to the remote repository..."
-git push -u origin main | Out-Null | Out-Null
+git push -u origin main --quiet
 
 # Display the Git log
 Write-Host "--Last 5 commit--"
