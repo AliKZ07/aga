@@ -3,7 +3,7 @@ Write-Host "✔ Add all changes in the your repo to the staging area..."
 git add -A | Out-Null
 
 # git commit
-$message = Read-Host "🖊 Tell me a specified commit message"
+Start-Sleep -Seconds 2;$message = Read-Host "🖊 Tell me a specified commit message"
 git commit -m $message | Out-Null
 
 # Push the changes to the remote repository
