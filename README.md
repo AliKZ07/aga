@@ -5,3 +5,4 @@ Thats my first powershell app to automate `git add`, `commit`, `push`, `log -gra
 ### Task:
 - [ ] create a installer to access aga from **PATH**
 - [ ] ask from client to **-all** or just a file
+- [ ] make emojis better
